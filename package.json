@@ -4,9 +4,9 @@
   "description": "Thai Baht to Bitcoin currency converter with live rates",
   "main": "index.html",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build:prod": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "build:prod": "tailwindcss -i src/input.css -o dist/output.css --minify",
+    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch",
     "start": "npx http-server . -p 3000"
   },
   "keywords": ["currency", "converter", "bitcoin", "thai", "tailwind"],
